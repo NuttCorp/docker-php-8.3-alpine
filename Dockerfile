@@ -17,7 +17,6 @@ RUN apk add --no-cache \
         docker-php-ext-install mysqli && \
         docker-php-ext-install gettext && \
         docker-php-ext-install zip && \
-        docker-php-ext-install json && \
         docker-php-ext-install xsl
 
 COPY uploads.ini /usr/local/etc/php/conf.d/uploads.ini
